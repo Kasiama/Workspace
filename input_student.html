@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src ="/Users/kasiama/Documents/UP10/set_student.js"></script>
+  <script src ="/Users/kasiama/Documents/UP10/code.js" async></script>
+
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="stylesheet" href="input.css" type="text/css"/>
+  
+</head>
+
+<body background="http://indesigninfo.ru/wp-content/uploads/2017/03/Temnyie-oboi-47.jpg">
+  <div id="menu" class="menu">
+    <span class="title">Ввод студента</span>
+    <ul>
+      <li><a href="body.html">Главная страница</a></li>
+     <li><a href="output_student.html">Вывод студентов</a></li>
+      <li><a href="map.html">map</a></li>
+    </ul>
+  </div>
+
+  <form >
+    <table>
+      <tr>
+        <td style="color:#fff; 
+         font-size: 30px;
+         text-decoration: none;
+         text-transform: uppercase;">Имя</td>
+        <td>
+          <input name="name" type="text">
+        </td> 
+        <td>
+          <input type="checkbox"  name="sex" value="men" > <h style= "color : white"> Мужчина?</h><Br >
+        </td>
+      </tr>
+      <tr>
+        <td style="color:#fff; font-size: 30px;
+      text-decoration: none;
+      text-transform: uppercase;" >Фамилия</td>
+        <td>
+          <input name="surname" type="text">
+        </td>
+      </tr>
+      <tr>
+        <td style="color:#fff; font-size: 30px;
+      text-transform: uppercase;">Факультет</td>
+        <td>
+          <select name="faculty" style="font-size: 30px;text-transform: uppercase">
+            <option></option>
+            <option value="1">ФПМИ</option>
+            <option value="2">ФМО</option>
+            <option value="3">Бомж</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td style="color:#fff; font-size: 30px;
+      text-transform: uppercase;">Имя файла</td>
+        <td>
+          <input name="nameFile" type="text">
+        </td>
+      </tr>
+     
+    </table>
+        
+    
+    <button  class = "myClass" type="button" onclick="validate(this.form)" value="Ввести" style=" width:80%; height: 5%;">
+      <img src="/Users/kasiama/Documents/Unknown.jpg" style="width:80%; height: 5%;">
+    </button>
+
+
+    
+
+  
+  </form>
+
+</body>
+
+</html>
